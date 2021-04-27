@@ -1,29 +1,29 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "fernscrops",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Ferns Crops",
+  "description": "Adds new crops and plants!",
   "authors": [
-    "Me!"
+    "Fern"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "sources": "https://github.com/yeaFern/ferns-crops"
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/fernscrops/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "fern.crops.Crops"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "fernscrops.mixins.json"
   ],
 
   "depends": {
@@ -32,6 +32,5 @@
     "minecraft": "1.16.x"
   },
   "suggests": {
-    "another-mod": "*"
   }
 }
